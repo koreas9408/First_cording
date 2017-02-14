@@ -29,5 +29,7 @@ if num1 < 10 :
              result = num1 * num2
              print("{} * {} = {}".format(num1, num2, result))
 elif num1 >= 10 :
-    while num1 < 10 :
-        int(input("10 미만의 구구단만 출력이 가능합니다. : "))
+    num1 = int(input("10 미만의 구구단을 입력해주세요 :  "))
+    for num2 in range (1,10):
+             result = num1 * num2
+             print("{} * {} = {}".format(num1, num2, result))
