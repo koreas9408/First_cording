@@ -20,5 +20,4 @@ while True:
         print(menu)
         break
     else:
-        some = input("다시 입력해 주세요 :")
-    # some = input("다시 입력해주세요! (한식, 중식, 일식) : ")
+        some = input("다시 입력해주세요! (한식, 중식, 일식) : ")
