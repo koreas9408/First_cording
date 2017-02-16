@@ -4,18 +4,22 @@ some = input(" 어떤 맛집을 추천해 드릴까요? (한식, 일식, 중식 
 list_1 = ['김밥천국', '아리솔', '담', '토박이', '남도식당']
 list_2 = ['중국성', '홍반장', '호화반점', '국빈', '메이탄']
 list_3 = ['에도긴', '우도', '진스시', '아소산', '긴자']
+list_4 = ['한식', '중식', '일식']
 # menu = random.choice(some)
 # print(menu)
-
-if some == "한식":
-    menu = random.choice(list_1)
-    print(menu)
-elif some == "중식":
-    menu = random.choice(list_2)
-    print(menu)
-elif some == "일식":
-    menu = random.choice(list_3)
-    print(menu)
-elif some != "한식" "일식" "중식":
-    print("찾을 수 없는 메뉴입니다. ㅠㅠ")
+while True:
+    if some == "한식":
+        menu = random.choice(list_1)
+        print(menu)
+        break
+    elif some == "중식":
+        menu = random.choice(list_2)
+        print(menu)
+        break
+    elif some == "일식":
+        menu = random.choice(list_3)
+        print(menu)
+        break
+    else:
+        some = input("다시 입력해 주세요 :")
     # some = input("다시 입력해주세요! (한식, 중식, 일식) : ")
