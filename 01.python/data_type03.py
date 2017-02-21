@@ -3,17 +3,17 @@
 # True/False
 # and, or, not
 
-a = True
-#A가 참이거나 혹은 B가 참이라면
-print(a or b)
-b = False
-#A가 참이고 그리고 B가 참이라면
-print(a and b)
+# a = True
+# A가 참이거나 혹은 B가 참이라면
+#print(a or b)
+# b = False
+# A가 참이고 그리고 B가 참이라면
+# print(a and b)
 
-# ==
-c = True
-print(a == True)
-print(a is True)
+# # ==
+# c = True
+# print(a == True)
+# print(a is True)
 
 # if
 d = 3
